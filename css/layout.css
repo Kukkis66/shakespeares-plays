@@ -1,0 +1,76 @@
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+ul {
+    list-style: disc;
+    padding: 1rem 1rem 1rem 4rem;
+    list-style: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+
+}
+
+table {
+    margin-bottom: 1rem;
+}
+
+tr {
+    line-height: 1.5;
+}
+
+td {
+    padding-right: 1rem;
+}
+
+
+.rivit_vierekkain > * {
+    display: flex;
+    
+    list-style-type: none;
+    
+    
+    
+    
+    
+}
+
+.listat {
+    background-color: lightgray;
+    margin:  1rem 1rem 1rem 0rem;
+
+}
+
+.listat > * {
+    padding: 0.3rem;
+}
+
+.joka_toinen tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.joka_toinen_odd tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.dotted {
+    text-decoration: underline dotted brown 0.3rem;
+    
+    font-style: oblique;
+    font-weight: bold;
+    color: brown;
+    
+}
+
+
