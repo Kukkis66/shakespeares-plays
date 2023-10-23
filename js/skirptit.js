@@ -1,6 +1,6 @@
 
 
-
+// testicommentti
 var eka_id = document.getElementById("eka");
 eka_id.classList.add
 ("rivit_vierekkain");
